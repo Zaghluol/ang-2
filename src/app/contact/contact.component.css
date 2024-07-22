@@ -1,0 +1,31 @@
+h1{
+    color: darkslategray;
+    text-align: center;
+    padding-top: 50px;
+}
+.contact{
+    width: 55%;
+    margin: 0 auto;
+}
+.ico{
+    position: relative;
+    margin: 1.5rem 0;
+}
+.ico::after{
+    content: "";
+    width: 10%;
+    height: 5px;
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    background-color: darkslategray;
+}
+.ico::before{
+    content: "";
+    width: 10%;
+    height: 5px;
+    position: absolute;
+    right: 55%;
+    top: 40%;
+    background-color: darkslategray;
+}

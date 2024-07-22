@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    color: #fff;
+}
+.home{
+    height: 100vh;
+    background-color: darkcyan;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+.ico{
+    position: relative;
+    margin: 1rem 0;
+}
+.ico::after{
+    content: "";
+    width: 20%;
+    height: 5px;
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    background-color: #fff;
+}
+.ico::before{
+    content: "";
+    width: 20%;
+    height: 5px;
+    position: absolute;
+    right: 55%;
+    top: 40%;
+    background-color: #fff;
+}

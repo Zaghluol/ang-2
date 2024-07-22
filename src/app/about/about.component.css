@@ -1,0 +1,39 @@
+.about{
+    background-color: darkcyan;
+    color: white;
+    padding: 4rem 0;
+}
+.about-content{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    width: 47%;
+}
+.about-title{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.ico{
+    position: relative;
+    margin: 1.5rem 0;
+}
+.ico::after{
+    content: "";
+    width: 15%;
+    height: 5px;
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    background-color: #fff;
+}
+.ico::before{
+    content: "";
+    width: 15%;
+    height: 5px;
+    position: absolute;
+    right: 55%;
+    top: 40%;
+    background-color: #fff;
+}
